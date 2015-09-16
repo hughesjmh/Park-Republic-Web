@@ -1,0 +1,587 @@
+/*Begin pr-stylesheet
+    Author: Jon Hughes
+    Date Modified: 30/6/2015*/
+
+/*color scheme for 30/6/2015 iteration: #23135D, #7E0D21, #0A661E*/
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Lora);
+/*font-family: 'Lora', serif;*/
+/*@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);*/
+/*font-family: 'Merriweather Sans', sans-serif;*/
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:300);
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:300italic);
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-bottom: 60px;
+}
+
+#paddingDiv{
+    height:150px;
+}
+
+.glyphicon.glyphicon-search{
+    font-size: 22px;
+}
+.glyphicon.glyphicon-euro{
+    font-size: 22px;
+}
+.glyphicon.glyphicon-phone{
+    font-size: 22px;
+}
+/*--------------------------------------------------
+            Map Elements
+---------------------------------------------------*/
+#map{
+    margin-bottom: 50px;
+    border: solid 1px;
+    padding: 20px;
+    height: 550px;
+}
+
+#windowTable{
+    padding:20px;
+    border-top: solid 1px;
+}
+
+#windowTable td {
+    padding-right: 22px;
+    text-align: left;
+}
+
+#search-input{
+    margin-top: 25px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 70%;
+    max-width: 400px;
+    font-size: 15px;
+    font-family: 'Merriweather Sans';
+    border: 1px solid transparent;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+#search-input:focus{
+    border-color: #1549F5;
+}
+/*--------------------------------------------------
+            Navigation bar styling
+---------------------------------------------------*/
+.navbar navbar-default{
+    color: white;
+}
+
+#whiteText{
+    color: white;
+}
+
+.navbar{
+    background-color: #23135D;
+    border: none;
+}
+.navbar.alt-color{
+    background-color: #096BF6;
+}
+
+/*--------------------------------------------------
+                    Header styling
+---------------------------------------------------*/
+
+h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/*--------------------------------------------------
+                    Div styling
+---------------------------------------------------*/
+.colorBackText{
+    font-size: 22px;
+    color: white;
+    float: right;
+    padding: 20px;
+    margin-top: 10px;
+    line-height: 35px;
+    /*vertical-align: center;*/
+}
+
+.whiteBackText{
+    font-size: 25px;
+    color: black;
+    float: left;
+    padding: 20px;
+    padding-top: 50px;
+    margin-top: 10px;
+    line-height: 35px;
+    /*vertical-align: center;*/
+}
+
+#divImage{
+    max-height: 250px;
+    /*text-align: center;*/
+}
+
+/*--------------------------------------------------
+                    Mission div styling
+---------------------------------------------------*/
+#missionDiv{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /*background-color: #23135D;*/
+    background-image: url("../img/Cork-City-Ireland-blue2.jpg");
+    /*Image taken from blog.southeastireland.com */
+    background-repeat: no-repeat;
+    background-size: ;
+}
+
+/*--------------------------------------------------
+                    Carousel Styling
+---------------------------------------------------*/
+
+
+.carousel-control.right{
+    background-image: none;
+}
+
+.carousel-control.left{
+    background-image: none;
+}
+
+.carousel-indicators li{
+    border: 1px solid #337AB7;
+}
+.carousel-caption{
+    color: black;
+    bottom: 30px;
+    text-align: center;
+    text-shadow: none;
+    
+}
+.carousel-caption p{
+    width: auto;
+    font-size: 16px;
+}
+.carousel-indicators li.active{
+    background-color: #337AB7;
+}
+
+.item img{
+    max-height: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.carousel-inner > .item{
+    transition: left 1.0 ease-in-out 0s;
+}
+
+#myCarousel{
+    max-width: 400px;
+}
+/*--------------------------------------------------
+                    Service Summary div styling
+---------------------------------------------------*/
+
+#serviceSummary{
+    font-size: 20px;
+    line-height: 35px;
+    padding: 20px;
+    color: #1549F5;
+}
+
+span.glyphicon{
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.summary-p{
+    padding: 15px;
+}
+
+
+/*--------------------------------------------------
+                  Owners Div
+---------------------------------------------------*/
+
+#ownersDiv{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #0A661E;
+}
+
+/*--------------------------------------------------
+                  Drivers Div
+---------------------------------------------------*/
+
+#driversDiv{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+}
+
+/*--------------------------------------------------
+                  'About Us' Div
+---------------------------------------------------*/
+
+#aboutUsDiv{
+    margin-bottom: 100px;/*margin should be attached to the last div on page*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: /*#D31E2F*//*#1549F5*/#7E0D21;
+}
+
+.team-image{
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 35px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.profCaption{
+    right: 130px;
+}
+/*--------------------------------------------------
+                  Footer
+---------------------------------------------------*/
+
+footer{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color: #23135D;
+    text-align: center;
+	padding: 30px;
+    bottom: 0;
+}
+
+/*--------------------------------------------------
+        Start LOGIN.PHP Styling
+---------------------------------------------------*/
+
+#login_div{
+    max-width: 350px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+/*--------------------------------------------------
+        Start SIGNUP.PHP Styling
+---------------------------------------------------*/
+
+#signup_div{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 25px;
+}
+
+.signup_style{
+    padding-right: 80px;
+    padding-bottom: 5px;
+    
+}
+
+#submit-btn{
+    margin-left: 15px;
+    height: 40px;
+}
+
+#terms-conditions{
+    margin-left: 15px;
+    
+}
+
+.list-unstyled{
+    position: absolute;
+}
+#termsError{
+    margin-left: 15px;
+}
+.popover{
+    max-width: 500px;
+}
+.popover-title{
+    background-color: #23135D;
+    color: white;
+}
+
+.popover-content{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 10px;
+    text-align: justify;
+}
+/*--------------------------------------------------
+        Start USER.PHP Styling
+---------------------------------------------------*/
+
+.ownerApp{
+    padding-top: 65px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+    height: 210px;
+}
+
+/*Styles the tabs to collapse and stack on mobile*/
+@media (max-width: 480px) { 
+    .nav-tabs > li {
+        float:none;
+    }
+}
+
+#userImage{
+    float:left;
+}
+
+#userDetails{
+    float: left;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.img-thumbnail{
+    max-height: 120px;
+}
+
+#appMenu{
+    padding: 10px;
+    padding-top: 0px;
+}
+
+#saveChangesConfirm{
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
+    color: #0A661E;
+}
+#inner-saveChange{
+    position: relative;
+    left: -50%;
+    margin-top: 40px;
+}
+
+/*--------------------------------------------------
+        Start Profile.PHP Styling
+---------------------------------------------------*/
+
+#picLoader{
+    margin-left:20px;
+    padding: 5px;
+    width: 250px;
+}
+
+#accountDelete{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    max-width: 400px;
+}
+
+#bank-details{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    max-width: 400px;
+}
+
+#profileDetails{
+    float: left;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+
+.pTableDetails{
+    margin: 20px;
+}
+
+.pTableDetails td{
+    padding: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+#editPword{
+    margin-left: 25px;
+    max-width: 400px;
+}
+
+/*--------------------------------------------------
+        Start UserAccount.PHP Styling
+---------------------------------------------------*/
+.user-account{
+    margin-top: 15px;
+}
+
+#parkingSpaceDiv{
+    padding-bottom: 50px;
+}
+
+#accountTable{
+    font-size: 16px;
+    margin-bottom: 80px;
+    text-align: left;
+}
+#accountTable td{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+#accountAddress{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#total{
+    text-align: right;
+}
+
+#accountTable th{
+    text-align: left;
+}
+
+#accountTable tr:nth-child(even){
+    background-color: #eef7fa;
+}
+
+#accountTable tr:last-child{
+    background-color: white;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+#user-transaction-info{
+    font-size: 20px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*--------------------------------------------------
+        Start 'p_space.PHP' Styling
+---------------------------------------------------*/
+
+#flip{
+    margin-top:0px;
+}
+
+#panel, #flip {
+    padding: 25px;
+    border: solid 1px #c3c3c3;
+    margin-top: 10px;
+}
+
+#panel{
+    display: none;
+    padding-top: 10px;
+}
+
+.pspace_div{
+    padding-bottom: 100px;
+}
+
+#addressForm{
+    max-width: 600px;
+    padding: 20px;
+}
+
+.address_print{
+    padding: 15px;
+}
+
+/*Div for each parking space*/
+#add_1{
+    border: solid 2px;
+    border-color: #337AB7;
+    padding: 25px;
+    margin-top: 15px;
+    
+}
+
+/*begin styling of timetable for address div*/
+#time_table{
+    max-width: 350px;
+}
+
+#time_table td:nth-child(odd){
+    color: #337AB7;
+}
+
+#time_table tr:nth-child(even){
+    background-color: #eef7fa;
+}
+
+/*Styling for panel holding printed address on 'p_spaces'*/
+#panelAddress{
+    padding: 25px;
+    padding-top: 15px;
+    max-width: 400px;
+    margin-top: 10px;
+    font-style:italic;
+}
+.panel.panel-danger{
+    padding: 10px;
+    max-width: 300px;
+}
+
+#attention-avail{
+    max-width: 300px;
+}
+
+#spaceListing{
+    padding-bottom: 50px;
+}
+
+/*address 'confirmDelete' page buttons */
+.deleteButton{
+    font-size: 18px;
+}
+
+.glyphicon.glyphicon-ok, .glyphicon.glyphicon-remove{
+    font-size: 18px;
+}
+
+.delButtonDiv{
+    padding-top: 30px;
+    
+}
+
+/*--------------------------------------------------
+        Start 'new_space.PHP' table Styling
+---------------------------------------------------*/
+
+#new_pspace{
+    border-collapse: separate;
+    
+}
+#new_pspace td{
+    padding: 0px;
+}
+#new_pspace td:nth-child(2){
+    text-align: center;   
+}
+#new_pspace td:nth-child(4){
+    text-align: center;
+}
+#new_pspace td:nth-child(5){
+    text-align: center;
+}
+#errorMssg{
+    border-spacing: 5px;
+}
