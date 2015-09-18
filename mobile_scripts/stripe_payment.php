@@ -37,7 +37,7 @@ $headers = 'From: info@parkrepublic.com' . "\r\n"; // Set from headers
 mail($to, $subject, $message, $headers); // Send our email
 
 // Create the charge on Stripe's servers - this will charge the user's card
-\Stripe\Stripe::setApiKey("sk_test_l7lh6UArv4EODH86bVrSB1rI");
+\Stripe\Stripe::setApiKey("");
 
 try {
 $charge = \Stripe\Charge::create(array(

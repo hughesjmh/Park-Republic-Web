@@ -5,10 +5,7 @@ session_start();
 $uname=$_SESSION['own_uname'];
 $pword=$_SESSION['own_password'];
 
-$servername = "parkrepublicdb.c8v7ykgj2zle.eu-west-1.rds.amazonaws.com";
-$username = "prdbuser";
-$password = "Gr3gWatch";
-$dbname = "owners_db";
+
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -39,7 +36,7 @@ if (!class_exists('S3'))require_once('S3.php');
 if (!defined('awsAccessKey')) define('awsAccessKey', 'CHANGETHIS');
 if (!defined('awsSecretKey')) define('awsSecretKey', 'CHANGETHISTOO');
 
-$s3 = new S3('AKIAJO6KUIQYOWWGCSNA', 'sE0alAdbsFDxM+w490x4M9bNdqVb0HQQkTztiv50');
+$s3 = new S3('', '');
 
 //check whether a form was submitted
 if(isset($_POST['Submit'])){

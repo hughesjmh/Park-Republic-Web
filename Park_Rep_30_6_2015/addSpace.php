@@ -3,10 +3,7 @@
 
 <?php
 
-$servername = "parkrepublicdb.c8v7ykgj2zle.eu-west-1.rds.amazonaws.com";
-$username = "prdbuser";
-$password = "Gr3gWatch";
-$dbname = "owners_db";
+
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
